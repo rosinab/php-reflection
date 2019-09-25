@@ -1,0 +1,149 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.boxspot {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+  flex-direction: column;
+}
+
+.extrabox {
+  background-color: #EF8354;
+  width: 50%;
+  height: 15rem;
+}
+
+.formbox {
+  background-color: #4F5D75;
+  width: 50%;
+  height: 15rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+#box {
+  margin: 5px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .extrabox {
+    width: 85%;
+    height: 330px;
+    padding-top: 6rem;
+  }
+
+  .formbox {
+    width: 85%;
+    height: 330px;
+    padding-top: 6rem;
+  }
+}
+@media screen and (max-width: 812px) {
+  .extrabox {
+    height: 280px;
+    padding-top: 1rem;
+  }
+
+  .formbox {
+    height: 280px;
+    padding-top: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .extrabox {
+    width: 85%;
+  }
+
+  .formbox {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 667px) {
+  .extrabox {
+    height: 280px;
+    padding-top: 1rem;
+  }
+
+  .formbox {
+    height: 280px;
+    padding-top: 1rem;
+  }
+}
+@media screen and (max-width: 568px) {
+  .extrabox {
+    height: 280px;
+    padding-top: 1rem;
+  }
+
+  .formbox {
+    height: 280px;
+    padding-top: 1rem;
+  }
+}
+@media screen and (max-width: 414px) {
+  .extrabox {
+    width: 89%;
+    height: 320px;
+    padding: 0 4px;
+  }
+
+  .formbox {
+    width: 89%;
+    height: 320px;
+    padding: 0 4px;
+  }
+
+  .center {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  .extrabox {
+    height: 340px;
+  }
+}
+@media screen and (max-width: 365px) {
+  a.list {
+    font-size: 14px;
+  }
+
+  .center {
+    padding-left: 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  a.list {
+    font-size: 14px;
+  }
+
+  .center {
+    padding-left: 0;
+  }
+
+  .extrabox {
+    height: 400px;
+  }
+}
+
+/*# sourceMappingURL=extra.css.map */

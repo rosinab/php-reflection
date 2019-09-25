@@ -1,0 +1,11 @@
+{
+    "require": {
+        "google/apiclient": "^2.0",
+        "scriptotek/google-books": "^0.2.4",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.2",
+        "phpspec/phpspec": "^5.1"
+    }
+}

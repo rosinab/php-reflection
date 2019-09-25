@@ -1,0 +1,374 @@
+$white: white;
+$gunmetal: #2D3142;
+$grey: #BFC0C0;
+$orange: #EF8354;
+$blue: #4F5D75;
+$black: black;
+
+@mixin headfont {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    @include headfont();
+    text-align: center;
+    overflow-y: hidden;
+}
+
+p{
+    &.subtext{
+        width: 90%;
+        margin-left: 1.7rem;
+    }
+    &.subtextbold{
+        width: 90%;
+        margin-left: 1.7rem;
+        font-weight: bold;
+    }
+    &.extratext{
+        color: $white;
+        margin-top: 2rem;
+    }
+}
+
+h2{
+    &.subtitle{
+        text-transform: uppercase;
+        color: $black;
+        margin-bottom: 2rem;
+    }
+}
+
+.myphoto {
+    width: 50%;
+    margin-left: 0;
+}
+
+.mobphoto {
+    display: none;
+}
+
+.infospot {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.info {
+    display: flex;
+    background-color: $orange;
+    width: 50%;
+}
+
+.infotext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.extrabox{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.2rem;
+}
+
+.extra{
+    display: flex;
+    justify-content: center;
+    background-color: $blue;
+    width: 50%;
+    height: 5rem;
+}
+
+@media screen and (max-width: 1366px) {
+    body {
+        overflow-y: scroll;
+    }
+    
+    .infospot {
+        display: flex;
+        flex-direction: column;
+        margin-left: 15rem;
+    }
+    .myphoto{
+        display: none;
+    }
+    .mobphoto {
+        display: block;
+        width: 70.5%;
+    }
+  
+    .info {
+      width: 70.5%;
+      height: 320px;
+  }
+
+  .extra {
+      width: 785px;
+      margin-right: 5.7rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        overflow-y: scroll;
+    }
+    
+    .infospot {
+        display: flex;
+        flex-direction: column;
+        margin-left: 8rem;
+    }
+    .myphoto{
+        display: none;
+    }
+    .mobphoto {
+        display: block;
+        width: 80.5%;
+    }
+  
+    .info {
+      width: 80.5%;
+      height: 320px;
+  }
+
+  .extra {
+      width: 70.5%;
+      margin-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 823px) {
+
+    .infospot {
+        margin-left: 6.9rem;
+    }
+
+    .extra {
+        width: 592px;
+        margin-right: 2.7rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        overflow-y: scroll;
+    }
+  .infospot {
+      display: flex;
+      flex-direction: column;
+      margin-left: 6.5rem;
+  }
+  .myphoto{
+      display: none;
+  }
+  .mobphoto {
+      display: block;
+      width: 546px;
+      margin-left: 1px;
+  }
+
+  .info {
+    width: 84.5%;
+}
+
+.extra {
+    width: 73%;
+    margin-left: 3rem;
+    }
+}
+
+@media screen and (max-width: 736px) {
+   
+    .mobphoto{
+        width: 519px;
+    }
+
+    .info{
+        width: 519px;
+    }
+
+    .infospot {
+        margin-left: 6.2rem;
+    }
+
+    .extra {
+        width: 519px;
+    }
+
+}
+
+@media screen and (max-width: 731px) {
+   
+    .mobphoto{
+        width: 514px;
+    }
+
+    .info{
+        width: 514px;
+    }
+
+    .infospot {
+        margin-left: 6rem;
+    }
+
+    .extra {
+        margin-right: 3.5rem;
+        width: 514px;
+    }
+
+}
+
+@media screen and (max-width: 667px) {
+
+    .infospot {
+        margin-left: 4rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+   
+    .mobphoto{
+        width: 514px;
+        margin-left: 0;
+    }
+    .info{
+        width: 514px;
+    }
+
+    .infospot {
+        margin-left: 3.2rem;
+    }
+}
+
+@media screen and (max-width: 568px) {
+
+    .mobphoto{
+        width: 455px;
+    }
+    .info{
+        width: 455px;
+    }
+
+    .infospot {
+        margin-left: 3.5rem;
+    }
+
+    .extrabox {
+        margin-left: 1rem;
+    }
+
+    .extra {
+        width: 455px;
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 414px) {
+
+p{
+    &.subtext{
+        width: 85%;
+    }
+    &.subtextbold{
+        width: 85%;
+        font-weight: bold;
+    }
+}
+
+body {
+    margin-right: 15px;
+}
+
+.infospot{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+}
+
+.myphoto{
+    display: none;
+}
+
+.mobile{
+display: flex;
+justify-content: center;
+}
+
+.mobphoto {
+    display: block;
+    width: 90%;
+}
+
+.info {
+   width: 89.9%;
+   height: 370px;
+   margin-left: 19.6px;
+}
+
+.extra{
+    width: 90%;
+    height: 85px;
+    margin: 23px 0 16px 0;
+}
+}
+
+@media screen and (max-width: 414px) {
+    .info{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .info{
+        width: 323px;
+    }
+
+    .extra{
+    height: 90px;
+}
+
+.mobphoto{
+    width: 322px;
+    margin-left: 3px;
+}
+}
+
+@media screen and (max-width: 360px) {
+   .mobphoto {
+       margin-left: 5px;
+       width: 309px;
+   }
+
+   .info {
+    margin-left: 17px;
+    width: 309px;
+}
+}
+
+@media screen and (max-width: 320px) {
+    .mobphoto {
+        width: 273px;
+        margin-right: 6px;
+    }
+
+    .info {
+        margin-top: 1rem;
+        width: 273px;
+        height: 455px;
+     }
+     .extra{
+        height: 110px;
+    }
+    
+    p {
+    &.extratext {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+ }

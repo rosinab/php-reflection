@@ -1,0 +1,321 @@
+p.foottext {
+  font-family: "Josefin Sans", sans-serif;
+  margin: 45px 200px 45px 10px;
+  width: 350px;
+}
+
+a.bannertext {
+  font-family: "Josefin Sans", sans-serif;
+  margin-left: 3rem;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+a.logo {
+  font-family: "Alfa Slab One", cursive;
+  margin-left: 3rem;
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
+}
+
+.mobnav {
+  display: none;
+}
+
+.headersection, .footersection {
+  display: flex;
+  justify-content: center;
+}
+
+.headerbanner {
+  background-color: #2D3142;
+  color: white;
+  height: 150px;
+  width: 95%;
+  display: flex;
+}
+
+.split {
+  margin-top: 3rem;
+}
+
+.footerbanner {
+  background-color: #2D3142;
+  color: white;
+  height: 150px;
+  width: 95%;
+  display: flex;
+}
+
+.social {
+  display: flex;
+  margin-left: 67rem;
+}
+
+.socic {
+  width: 48px;
+  height: 48px;
+  margin: 60px 1rem 0 0;
+}
+
+.socic1 {
+  width: 60px;
+  height: 60px;
+  margin-top: 54px;
+}
+
+.links {
+  display: flex;
+  justify-content: end;
+  width: 390px;
+  margin: 4rem 0 0 60%;
+}
+
+@media screen and (max-width: 1366px) {
+  .mobnav {
+    display: none;
+  }
+
+  .links {
+    margin-left: 600px;
+  }
+
+  .logo {
+    width: 500px;
+  }
+
+  .socic, .socic1 {
+    display: none;
+  }
+
+  .headerbanner, .footerbanner {
+    width: 97%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .mobnav {
+    display: none;
+  }
+
+  .socic, .socic1 {
+    display: none;
+  }
+
+  .headerbanner, .footerbanner {
+    width: 97%;
+  }
+
+  .links {
+    margin-left: 16rem;
+  }
+}
+@media screen and (max-width: 823px) {
+  .split {
+    width: 500px;
+  }
+
+  .links {
+    margin-left: 120px;
+    width: 600px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mobnav {
+    display: none;
+  }
+
+  .socic, .socic1 {
+    display: none;
+  }
+
+  .headerbanner, .footerbanner {
+    width: 97%;
+  }
+
+  .links {
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 731px) {
+  a.logo {
+    font-size: 30px;
+  }
+  a.bannertext {
+    font-size: 20px;
+  }
+
+  .split {
+    width: 300px;
+  }
+
+  .links {
+    margin-left: 70px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 640px) {
+  a.logo {
+    font-size: 30px;
+  }
+  a.bannertext {
+    font-size: 20px;
+  }
+
+  .split {
+    width: 300px;
+  }
+
+  .links {
+    margin-left: 0;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 568px) {
+  a.logo {
+    font-size: 25px;
+  }
+  a.bannertext {
+    font-size: 16px;
+  }
+
+  .split {
+    width: 300px;
+    margin-top: 3.4rem;
+  }
+
+  .links {
+    margin: 4rem 0 0 20px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 414px) {
+  body {
+    overflow-y: scroll;
+  }
+
+  .foot {
+    width: 90%;
+  }
+
+  .foottext {
+    text-align: center;
+  }
+
+  .social, .links {
+    display: none;
+  }
+
+  .split {
+    width: 87%;
+    margin-top: 30px;
+  }
+
+  .headerbanner, .footerbanner {
+    width: 90.9%;
+    height: 100px;
+  }
+
+  .mobnav {
+    display: block;
+    background-color: #4F5D75;
+    width: 362px;
+    height: 30px;
+    margin-left: 18px;
+    padding-top: 1rem;
+  }
+
+  .moblink {
+    width: 90px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 2px 0 2px;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 411px) {
+  body {
+    width: 388px;
+  }
+
+  .mobnav {
+    width: 352px;
+  }
+}
+@media screen and (max-width: 375px) {
+  body {
+    width: 360px;
+  }
+
+  a.logo {
+    width: 300px;
+    margin-left: 38px;
+    font-size: 2rem;
+  }
+
+  p.foottext {
+    width: 300px;
+    margin: 2.9rem 0 0 1rem;
+  }
+
+  .mobnav {
+    margin-left: 1rem;
+    width: 328px;
+  }
+}
+@media screen and (max-width: 360px) {
+  body {
+    width: 337px;
+  }
+
+  p.foottext {
+    width: 300px;
+    margin: 2.9rem 0 0 0;
+  }
+
+  a.logo {
+    margin-right: 1.72rem;
+    font-size: 32px;
+  }
+
+  .split {
+    width: 300px;
+  }
+
+  .footerbanner {
+    width: 309.594px;
+  }
+
+  .mobnav {
+    margin-left: 15px;
+    width: 307px;
+  }
+}
+@media screen and (max-width: 320px) {
+  body {
+    width: 310px;
+  }
+
+  a.logo {
+    width: 205px;
+    height: 44px;
+    margin-left: 27.2px;
+    font-size: 1.8rem;
+  }
+
+  .headerbanner, .split {
+    width: 273px;
+  }
+
+  .mobnav {
+    width: 273px;
+    margin-left: 19px;
+  }
+
+  .footerbanner {
+    width: 273.594px;
+  }
+}
+
+/*# sourceMappingURL=headerfooter.css.map */

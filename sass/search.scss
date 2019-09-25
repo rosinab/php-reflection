@@ -1,0 +1,104 @@
+$white: white;
+$gunmetal: #2D3142;
+$grey: #BFC0C0;
+$orange: #EF8354;
+$blue: #4F5D75;
+$black: black;
+
+@mixin headfont {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    @include headfont();
+    text-align: center;
+}
+
+p{
+    &.titles{
+        font-weight: bold;
+    }
+}
+
+a{
+    color: $white;
+    &.booklink{
+    height: 15.5px;
+    margin-top: 15px;
+    }
+}
+
+.return {
+    margin-top: 1.5rem;
+    width: 51.7%;
+    height: 3rem;
+    background-color: $blue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.boxspot{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.searches {
+    background-color: $orange;
+    width: 50%;
+    height: 90%;
+    padding: 0 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+       .searches{
+        width: 85%;
+    }
+
+    .return {
+        width: 88%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .searches{
+        width: 85%;
+    }
+
+    .return {
+        width: 90%;
+    }
+    
+}
+
+@media screen and (max-width: 414px) {
+    .return {
+        width: 90%;
+    }
+
+    .searches {
+        width: 83%;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .return {
+        width:91.8%;
+    }
+
+    .searches {
+        width: 81.8%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .return {
+        width:89%;
+    }
+
+    .searches {
+        width: 80%;
+    }
+}

@@ -1,0 +1,175 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  overflow-y: none;
+}
+
+.boxspot {
+  display: flex;
+  justify-content: center;
+  margin: 7.9rem 0 1.5rem 0;
+}
+
+.formbox {
+  background-color: #EF8354;
+  width: 50%;
+  height: 90%;
+  padding: 1rem 1rem;
+}
+
+.push {
+  margin-top: 340px;
+}
+
+@media screen and (max-width: 1024px) {
+  .formbox {
+    width: 85%;
+    height: 420px;
+    padding-top: 15rem;
+  }
+
+  .push {
+    margin-top: 240px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+}
+@media screen and (max-height: 812px) {
+  .boxspot {
+    margin-top: 4rem;
+  }
+
+  .formbox {
+    height: 270px;
+    padding-top: 6rem;
+  }
+
+  .push {
+    margin-top: 90px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .formbox {
+    width: 85%;
+    height: 240px;
+    padding-top: 6rem;
+  }
+
+  .push {
+    margin-top: 230px;
+  }
+}
+@media screen and (max-width: 736px) {
+  .push {
+    margin-top: 90px;
+  }
+}
+@media screen and (max-width: 731px) {
+  .push {
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .push {
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .push {
+    margin-top: 70px;
+  }
+}
+@media screen and (max-width: 414px) {
+  p.foottext {
+    margin-left: 0;
+  }
+
+  .footerbanner {
+    margin-left: 40px;
+    width: 330px;
+  }
+
+  .boxspot {
+    margin-top: 4rem;
+  }
+
+  .formbox {
+    width: 80.8%;
+    height: 250px;
+    margin-left: 1px;
+    padding-top: 2rem;
+  }
+
+  .push {
+    margin-top: 80px;
+  }
+}
+@media screen and (max-width: 411px) {
+  .formbox {
+    height: 310px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .footerbanner {
+    width: 320px;
+  }
+
+  .boxspot {
+    margin-top: 3rem;
+  }
+
+  .formbox {
+    width: 80.8%;
+    margin-left: 1px;
+  }
+
+  .push {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .footerbanner {
+    margin-left: 40px;
+  }
+
+  .boxspot {
+    margin-top: 4rem;
+  }
+
+  .formbox {
+    width: 80.8%;
+    height: 270px;
+    margin-left: 1px;
+  }
+
+  .push {
+    margin-top: 60px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footerbanner {
+    width: 272px;
+    margin-right: 8px;
+  }
+
+  .boxspot {
+    margin-top: 4rem;
+  }
+
+  .formbox {
+    height: 270px;
+    padding-top: 1rem;
+  }
+
+  .push {
+    margin-top: 65px;
+  }
+}
+
+/*# sourceMappingURL=books.css.map */
