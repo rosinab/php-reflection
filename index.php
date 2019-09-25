@@ -13,6 +13,8 @@
 <!-- HEADER -->
 <?php include 'header.php' ?>
 
+<!-- MAIN PAGE -->
+
 <div class="infospot">
 <div class="mobile">
 <img src="img/photo.png" alt="a photo of a book with prints and a candle" class="mobphoto">
