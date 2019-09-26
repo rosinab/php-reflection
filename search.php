@@ -30,7 +30,7 @@ foreach ($books->volumes->search($query) as $vol) {
   echo "<br>";
   echo $vol->description;
   echo "\n<br>";
-  echo "<a href='https://books.google.co.uk/books?id=$vol->id'> Find Here</a>";
+  echo "<a href='https://books.google.co.uk/books?id=$vol->id' target='_blank'> Find Here</a>";
   echo "<br><br>";
 }
 ?>

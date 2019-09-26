@@ -20,10 +20,10 @@
 <p>I know personally how much of a pain it can be to find places to request ARCs (Advanced Reader Copies). And obviously half of the fun of book reviewing is getting the chance to read books early and encourage people to read them as they come out.</p>
 <p>But there are a couple of places to look so check them out.</p>
 <ul class="center">
-<li><a href="https://www.netgalley.co.uk/" class="list">NetGalley (e-books only)</a></li>
-<li><a href="https://www.bookbridgr.com" class="list">Bookbridgr (physical books only)</a></li>
-<li><a href="https://www.readersfirst.co.uk/" class="list">Readers First (physical & e-books)</a></li>
-<li><a href="http://darkroomtours.fayerogers.co.uk/" class="list">Darkroom Tours (physical books only)</a></li>
+<li><a href="https://www.netgalley.co.uk/" class="list" target="_blank">NetGalley (e-books only)</a></li>
+<li><a href="https://www.bookbridgr.com" class="list" target="_blank">Bookbridgr (physical books only)</a></li>
+<li><a href="https://www.readersfirst.co.uk/" class="list" target="_blank">Readers First (physical & e-books)</a></li>
+<li><a href="http://darkroomtours.fayerogers.co.uk/" class="list" target="_blank">Darkroom Tours (physical books only)</a></li>
 </ul>
 </div>
 </div>
