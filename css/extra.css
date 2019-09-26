@@ -34,7 +34,7 @@ a {
 .formbox {
   background-color: #4F5D75;
   width: 50%;
-  height: 15rem;
+  height: 21rem;
 }
 
 .form {
@@ -46,6 +46,11 @@ a {
   margin: 5px 0;
 }
 
+.g-recaptcha {
+  display: flex;
+  justify-content: center;
+}
+
 @media screen and (max-width: 1024px) {
   .extrabox {
     width: 85%;
@@ -55,7 +60,7 @@ a {
 
   .formbox {
     width: 85%;
-    height: 330px;
+    height: 340px;
     padding-top: 6rem;
   }
 }
@@ -66,7 +71,7 @@ a {
   }
 
   .formbox {
-    height: 280px;
+    height: 340px;
     padding-top: 1rem;
   }
 }
@@ -77,6 +82,7 @@ a {
 
   .formbox {
     width: 85%;
+    height: 350px;
   }
 }
 @media screen and (max-width: 667px) {
@@ -86,8 +92,13 @@ a {
   }
 
   .formbox {
-    height: 280px;
+    height: 340px;
     padding-top: 1rem;
+  }
+}
+@media screen and (max-width: 640px) {
+  .formbox {
+    height: 340px;
   }
 }
 @media screen and (max-width: 568px) {
@@ -97,7 +108,7 @@ a {
   }
 
   .formbox {
-    height: 280px;
+    height: 360px;
     padding-top: 1rem;
   }
 }
@@ -110,7 +121,7 @@ a {
 
   .formbox {
     width: 89%;
-    height: 320px;
+    height: 380px;
     padding: 0 4px;
   }
 
@@ -121,6 +132,10 @@ a {
 @media screen and (max-width: 375px) {
   .extrabox {
     height: 340px;
+  }
+
+  .formbox {
+    height: 390px;
   }
 }
 @media screen and (max-width: 365px) {

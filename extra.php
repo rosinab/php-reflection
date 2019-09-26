@@ -5,6 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="css/extra.css">
 <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Josefin+Sans&display=swap" rel="stylesheet">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 </head>
 
@@ -46,7 +47,9 @@
     <label for="Website">Website</label>
     <input type="text" class="website" id="box" placeholder="HTTPS Urls Only" name="website">
   </div>
-  <div class="g-recaptcha form-label-group" data-sitekey="<?php echo getenv('SITE_KEY'); ?>"></div>
+  <div class="checkbox">
+  <div class="g-recaptcha" data-sitekey="6LctjLoUAAAAADIl-sIx85CKn0MNZ66f1Wa38_sF" id="box"></div>
+  </div>
   <button type="submit" class="btncolor" id="box">Submit</button>
 </form>
 </div>

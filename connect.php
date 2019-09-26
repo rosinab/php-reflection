@@ -16,7 +16,7 @@ if($connect->connect_error){
     $stmt->execute();    
     $stmt->close();
     $connect->close();
-    // header("Location: http://localhost/php%20reflection/extra.php");
+    header("Location: http://localhost/php%20reflection/index.php");
     echo "Thanks for your suggestion!";
     exit;
 }
