@@ -46,6 +46,7 @@
     <label for="Website">Website</label>
     <input type="text" class="website" id="box" placeholder="HTTPS Urls Only" name="website">
   </div>
+  <div class="g-recaptcha form-label-group" data-sitekey="<?php echo getenv('SITE_KEY'); ?>"></div>
   <button type="submit" class="btncolor" id="box">Submit</button>
 </form>
 </div>

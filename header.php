@@ -12,7 +12,7 @@
 <div class="headersection">
 <div class="headerbanner">
 <div class="split">
-    <a class="logo" href="/php%20reflection">Books Matter</a>
+    <a class="logo" href="index.php">Books Matter</a>
 </div>
     <div class="links">
     <a href="books.php" class="bannertext">BOOKS</a>
