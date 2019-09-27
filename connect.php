@@ -1,9 +1,15 @@
 <?php
-$name = $_POST['name'];
-$email = $_POST['email'];
-$website = $_POST['website'];
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+$name = trim(filter_input(INPUT_POST,"name",FILTER_SANITIZE_STRING));
+$email = trim(filter_input(INPUT_POST,"email",FILTER_SANITIZE_EMAIL));
+$website = trim(filter_input(INPUT_POST,"website",FILTER_SANITIZE_SPECIAL_CHARS));
 
-
+if ($name == "" || $email == "" || $website == "") {
+    echo "Please fill in the required fields: Name, Email and Website";
+    header('Refresh: 2; URL=http://localhost/php%20reflection/extra.php');
+    exit;
+}
+}
 
 //Database Connection
 $connect = new mysqli("localhost", "root", "", "reflection");
@@ -16,7 +22,7 @@ if($connect->connect_error){
     $stmt->execute();    
     $stmt->close();
     $connect->close();
-    header("Location: http://localhost/php%20reflection/index.php");
     echo "Thanks for your suggestion!";
+    header('Refresh: 2; URL=http://localhost/php%20reflection/index.php');
     exit;
 }
