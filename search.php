@@ -13,7 +13,7 @@ use Scriptotek\GoogleBooks\GoogleBooks;
 
 include 'header.php';
 
-$books = new GoogleBooks(['key' => 'AIzaSyCfYE15opugfr1QzGR4SpuQC4OR8FiaIQw', 'maxResults' => 10]);
+$books = new GoogleBooks(['key' => 'KEY GOES HERE', 'maxResults' => 10]);
 $query = $_GET['query'];
 ?>
 
